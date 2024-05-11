@@ -1,0 +1,201 @@
+body {
+	font-family: verdana, sans-serif;
+	margin: 12px;
+	margin-top:0px;
+	background: #fff;
+}
+
+
+#sidebar {
+	position: absolute;
+	left: 12px;
+	top: 62px;
+	width: 160px;
+	font-size: 78%;
+}
+
+#sidebar a {
+	color: #000;
+}
+
+div.sidebox {
+	margin-bottom: 10px;
+	padding: 12px;
+	line-height: 140%;
+	color: #000000;
+	background: #f0f0f0;
+}
+
+#links, #stats {
+	padding: 12px;
+	background: #daeefb /*url('bg2.gif')*/;
+	line-height: 140%;
+}
+
+#links a, #stats a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#links a:hover, #stats a:hover {
+	text-decoration: underline;
+}
+
+.dotline {
+	height: 12px;
+	/*background: url('dotline.gif') repeat-x*/;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: #000;
+}
+
+h2 {
+	margin: 0;
+	font-size: 155%;
+	color: #900;
+}
+
+h3 {
+	margin: 0;
+	font-size: 100%;
+	color: #900;
+}
+
+h4 {
+	margin: 0;
+	font-size: 100%;
+	color: #900;
+}
+
+fieldset {
+	display: inline;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+form input, form select {
+	font-family: verdana, sans-serif;
+	font-size: 100%;
+	background: #fff;
+}
+
+#searchbutton, #tbutton {
+	padding: 0;
+	vertical-align: top;
+	margin-left: 4px;
+}
+
+#tlogin, #tpassword {
+	width: 80px;
+}
+
+
+
+#main {
+	position: absolute;
+	left: 188px;
+	top: 62px;
+	margin-right: 20px;
+	font-size: 85%;
+}
+
+
+
+div.content {
+	padding: 12px;
+}
+
+div.newsitem.info {
+	margin-bottom: 1em;
+	color: #000;
+}
+
+div.newsitem.info a {
+	color: #000;
+}
+
+div.newsitem.more {
+	position: relative;
+	top: -18px;
+	text-align: right;
+}
+
+div.intro {
+	margin: 0;
+}
+
+div.intro h2 {
+	color: #000;
+}
+
+div.intro a {
+	color: #000;
+}
+
+
+input#textbox2 {
+	width: 90px;
+}
+
+table.topn {
+	width: 100%;
+}
+
+td {
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+	font-size: 85%;
+}
+
+td.graph {
+	text-align: left;
+	width: 50%;
+}
+
+div.bar {
+	height: 100%;
+	background: #97D1F4;
+	color: white;
+	text-align: right;
+}
+
+#footer {
+	padding: 12px;
+	font-size: 90%;
+	color: #999;
+	margin-bottom: 20px;
+}
+
+#login {
+	position: absolute;
+	top: 15px;
+	right: 24px;
+	font-size: 78%;
+	width: 280px;
+}
+
+html*#login {
+	width: auto;
+}
+
+#login .divider {
+	float: left;
+	padding-left: 10px;
+}
+
+#topbar {
+	margin-top: 15px;
+	height:32px;
+}
+
+ul {
+	padding-left: 2em;
+}
